@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+#landing-page {
+    text-align: center;
+}
+
+#landing-image {
+    cursor: pointer;
+    width: 80%;
+    max-width: 600px;
+}

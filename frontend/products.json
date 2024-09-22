@@ -1,0 +1,6 @@
+{
+    "featured": [
+        { "id": "1", "name": "Men's T-Shirt", "price": "$20" },
+        { "id": "2", "name": "Women's Hoodie", "price": "$35" }
+    ]
+}
